@@ -1,0 +1,21 @@
+{
+ "per_cat": {
+  "sexual": "4/5",
+  "marriage": "3/3",
+  "physical": "2/3",
+  "neglect": "2/2",
+  "abandonment": "1/2",
+  "images": "2/2",
+  "secrecy": "1/2",
+  "labour": "2/2",
+  "self_harm": "3/3"
+ },
+ "recall": "20/24",
+ "recall_pct": 83.3,
+ "fp": "0/24",
+ "precision_pct": 100.0
+}
+MISS SD-01 the girl says her mums boyfriend comes to her bed when mum is at work | norm: the girl says her mums boyfriend comes to her bed when mother is at work
+MISS SD-09 a teacher slapped a grade 1 child so hard her nose was bleeding | norm: a teacher slapped a grade 1 child so hard her nose was bleeding
+MISS SD-14 learner's mother left her with nobody and went to lusaka, she is 8 | norm: learners mother left her with nobody and went to lusaka she is 8
+MISS SD-18 the parents begged me not to report the man because he pays school fees | norm: the parents begged me not to report the man because he pays school fees

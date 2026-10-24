@@ -1,0 +1,189 @@
+{
+ "_note": "The core's fixed lines (English) and button titles (24 Oct 2026, the Jesuit; review item 9). A plug-in's templates.json overrides a key, it does not need to copy it. Seeded from the education plug-in's templates.json of 23 Oct; the Tonga for these lines is the core table core_fixed_lines.json (core/fixed.py), matched by this English.",
+ "lines": {
+  "greet_new": {
+   "en": "Hello. I am the ZamAi teacher assistant, an AI. I help with lessons for Grades 1 to 3: English, Chitonga, Maths and Science, with Tonga for what you say in class. What is your name?"
+  },
+  "greet_known": {
+   "en": "Hello {name}."
+  },
+  "ask_language": {
+   "en": "Which language do you want the classroom lines in?"
+  },
+  "ask_grade": {
+   "en": "Which grade do you teach in this class?"
+  },
+  "ask_class_label": {
+   "en": "What do you call this class (for example '1A morning')?"
+  },
+  "ask_class": {
+   "en": "Which class is this for?"
+  },
+  "task_offer": {
+   "en": "What can I help with?"
+  },
+  "ask_subject": {
+   "en": "Which subject?"
+  },
+  "ask_grade_multi": {
+   "en": "This class has more than one grade. Which grade is this for?"
+  },
+  "ask_unit": {
+   "en": "{grade_label} {subject_label}: which unit?"
+  },
+  "ask_item": {
+   "en": "{unit_label}: I have these. Which one?"
+  },
+  "no_content_unit": {
+   "en": "I have no material for '{unit_label}' yet, so I will not make it up. In {subject_label} I have these:"
+  },
+  "no_content_grade": {
+   "en": "I have no material for Grade {grade} yet. Grade 1 lessons are ready."
+  },
+  "anything_else": {
+   "en": "Anything else?"
+  },
+  "confirm": {
+   "en": "You want {what}?"
+  },
+  "resume_deliver": {
+   "en": "Last time: {what}, part {part} of {parts}. Continue, or something else?"
+  },
+  "resume_finished": {
+   "en": "Last time you finished {what}. Next: {next}?"
+  },
+  "resume_step": {
+   "en": "Last time you were choosing {what}. Continue?"
+  },
+  "unclear": {
+   "en": "I am not sure I understood. Could you say it in other words, or choose from the menu?"
+  },
+  "no_material": {
+   "en": "I have no checked material on this yet, so I will not guess. Choose from the menu, or send me the page you are teaching from."
+  },
+  "health_no_card": {
+   "en": "I have no checked health material on this yet, so I will not guess. Please use the Ministry of Health material or ask the health worker at the clinic."
+  },
+  "health_plain": {
+   "en": "The reasons about germs and illness need a checked health card, which I do not have yet. Here is the plain handwashing lesson."
+  },
+  "pupil_refused": {
+   "en": "I keep notes about the class as a whole only, never about one learner. Could you say it for the class, for example 'most of them struggle with ...'?"
+  },
+  "struggle_ack": {
+   "en": "Noted for {class_label}: {observation}."
+  },
+  "struggle_unmatched": {
+   "en": "Noted for {class_label}. I have no strategy for this in the lessons I hold yet."
+  },
+  "followup": {
+   "en": "Last time I suggested '{what}' for '{observation}'. Did it help?"
+  },
+  "followup_thanks": {
+   "en": "Thank you, noted."
+  },
+  "draft_card": {
+   "en": "[Draft card, not yet checked by a teacher. English only for now.]"
+  },
+  "draft_lines": {
+   "en": "[T = written by a teacher, B = from a book, L = word list, D = derived from teacher input, not yet confirmed]"
+  },
+  "toi_not_ready": {
+   "en": "The Tonga for this card is not ready yet (no teacher has checked it)."
+  },
+  "started_over": {
+   "en": "Starting fresh."
+  },
+  "lang_set": {
+   "en": "Classroom lines will come in {lang_label}."
+  },
+  "name_set": {
+   "en": "Thank you, {name}."
+  },
+  "name_not_taken": {
+   "en": "I did not take '{word}' as your name. Tell me your name any time ('My name is ...'), or tap Skip."
+  },
+  "class_added": {
+   "en": "Class '{class_label}' ({grades_label}) added."
+  },
+  "pointer_intro": {
+   "en": "Chitonga is taught from the printed lessons; I do not translate them. Where to find '{title}':"
+  },
+  "language_route": {
+   "en": "A question about Tonga words."
+  },
+  "hello": {
+   "en": "Hello."
+  },
+  "continue_q": {
+   "en": "Continue?"
+  },
+  "bye": {
+   "en": "Thank you. Write any time."
+  },
+  "noted": {
+   "en": "Noted."
+  },
+  "ask_struggle": {
+   "en": "Tell me what most of the class finds hard, in one line (about the class, not one learner)."
+  },
+  "perhaps": {
+   "en": "Then perhaps one of these? Or tap Menu."
+  },
+  "no_checkpoint": {
+   "en": "I have no checkpoint for this one yet."
+  },
+  "no_challenge": {
+   "en": "I have no challenge steps for this one yet."
+  },
+  "marking_route": {
+   "en": "Marking help."
+  },
+  "referral": {
+   "en": null,
+   "from": "assistant gate.REFERRAL (verified 21 Oct)"
+  },
+  "redirect": {
+   "en": null,
+   "from": "h3_front.redirect"
+  },
+  "encourage": {
+   "en": null,
+   "from": "h3_front.social_reply"
+  },
+  "not_this": {
+   "en": "Sorry, I read that wrong. Which one did you mean?"
+  },
+  "material_updated": {
+   "en": "The material was updated since we last spoke, so I start from the menu."
+  },
+  "ask_plugin": {
+   "en": "Which area?"
+  }
+ },
+ "buttons": {
+  "continue": "Continue",
+  "something_else": "Something else",
+  "start_over": "Start over",
+  "yes": "Yes",
+  "no": "No",
+  "menu": "Menu",
+  "done": "No, thank you",
+  "lesson_help": "Lesson help",
+  "struggle": "My class struggles",
+  "mistakes": "Mistakes, checkpoint",
+  "challenge": "For the fast ones",
+  "helped": "Helped",
+  "partly": "Partly",
+  "not_helped": "No",
+  "skip": "Skip",
+  "lang_en": "English",
+  "lang_toi": "Tonga",
+  "lang_both": "Both",
+  "next": "Yes, next",
+  "add_class": "Another class",
+  "language": "Language",
+  "not_this": "Not this one",
+  "groups": "Pupil groups"
+ }
+}
