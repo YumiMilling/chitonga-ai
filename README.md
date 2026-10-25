@@ -151,7 +151,7 @@ Notes for reading the code:
 - Docstrings carry dates and the reason for each decision.
 - "The Jesuit" and "the architect" are the names of two Claude Code agent personas used in the work (developer and
   planner). "The coordinator" is the main Claude Code session. "Chris" is the author.
-- Speakers appear by code only (T01, T05, T09, T12). The one exception is the public credit to Fr Musunga (T01).
+- Speakers appear by code only (T01, T05, T09, T12).
 - Paths are relative to the original working copy. Folders such as `internal/chitonga_train/...` and
   `../zamai-corpus-raw/...` hold data that is not published (see below), so most scripts will not run without it.
 
@@ -215,7 +215,7 @@ The other suites need the unpublished plug-in data or caches, and they stop with
 
 ## Credits
 
-- The Chitonga in our models was checked by paid bilingual speakers in Southern Province, among them Fr Musunga.
+- The Chitonga in our models was checked by paid bilingual speakers in Southern Province.
 - Funded by Yumi Milling Ltd.
 - Contact: chris@zamai.pro.
 - Written with Claude Code.
