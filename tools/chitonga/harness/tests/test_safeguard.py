@@ -3,7 +3,7 @@
 The detector is tools/chitonga/llm/safeguard.py (h3_front.safeguarding and core/gates.py call it). Tuned on
 tests/safeguard/dev_v1.jsonl ONLY; the bake-off rows are test rows and are not used here. What is held:
   - the dev set: recall per category and false positives on the hard negatives (lesson requests sharing words);
-  - through the whole engine: a disclosure is referred (116, 991, the social welfare office), only the EVENT is stored,
+  - through the whole engine: a disclosure is referred (116, the police Victim Support Unit, the social welfare office), only the EVENT is stored,
     and it never reaches a lesson, a confirmation or the redirect; a lesson request sharing words is never referred;
   - a reader whose reading routes to a lesson but whose English is a disclosure (typos echoed) is referred BEFORE the
     routing, on the free-text path and on the name step;
@@ -100,7 +100,7 @@ class TestDetector(unittest.TestCase):
 
     def test_referral_lines(self):
         ref = G.referral("x")["en_meaning"]
-        for must in ("116", "991", "Social Welfare", "head teacher"):
+        for must in ("116", "Victim Support Unit", "Social Welfare", "head teacher"):
             self.assertIn(must, ref)
 
     def test_old_cases_still_caught(self):

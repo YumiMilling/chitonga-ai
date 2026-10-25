@@ -28,7 +28,7 @@ HOW IT WORKS
   4 run on the light form (lowercase, punctuation out) AND the normalised form; the first hit wins.
 
 The referral itself is not here (tools/chitonga/assistant/gate.REFERRAL: head / guidance teacher or focal person today,
-Childline 116, police 991, the District Social Welfare Office; Children's Code Act No. 12 of 2022). Tuned ONLY on
+Childline 116, the police Victim Support Unit, the District Social Welfare Office; Children's Code Act No. 12 of 2022). Tuned ONLY on
 tools/chitonga/harness/tests/safeguard/dev_v1.jsonl; the bake-off rows were run once afterwards (their folder carries
 SAFEGUARD_ROWS_SEEN.md: no longer held out). Every rule errs on the side of catching: a false referral costs a teacher
 one extra line; a missed disclosure can cost a child.

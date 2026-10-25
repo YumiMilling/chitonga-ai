@@ -5,7 +5,7 @@ ORDER
                    category, spelling normalised, benign lesson phrases blanked) on the original and on any English
                    reading, BEFORE any routing to a lesson (engine._turn step 1; engine._gate_reading for the reading).
                    Outcome: the assistant's VERIFIED referral (tools/chitonga/assistant/gate.REFERRAL: head /
-                   guidance teacher or focal person today, Childline 116, police 991, the DSWO; Children's Code Act
+                   guidance teacher or focal person today, Childline 116, the police Victim Support Unit, the DSWO; Children's Code Act
                    No. 12 of 2022; checked 21 Oct). The engine stores the EVENT only, never the text (memory.py).
   2 scope (deny)   the assistant gate's DENY list (news and party politics, money, personal medical advice, chat about
                    the assistant, weather forecasts, sport): the fixed redirect (h3_front.redirect).

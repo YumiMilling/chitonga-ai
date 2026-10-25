@@ -30,18 +30,19 @@ import h3_front as F  # noqa: E402  (pure regex module: scope, safeguarding, the
 # ------------------------------------------------------------------------------------------------ fixed lines
 # THE REFERRAL, verified destinations (Codex primary-source research 21 Oct 2026,
 # llm/council/codex/2026-10-21_1038_safeguarding.md; memory ref-zambia-safeguarding-referral). Order as in the memory:
-# the school's own people today, Childline 116, police 991 for immediate danger, the District Social Welfare Office.
+# the school's own people today, Childline 116, the nearest police station's Victim Support Unit for immediate danger,
+# the District Social Welfare Office. Police 991 removed 25 Oct 2026 (reported inactive outside Lusaka).
 # h3_front.REFERRAL predates the verification and carries no number (its unit test asserts that); it is left as is and
 # this line is the assistant's. Recheck the numbers before any public release. The Tonga waits for a teacher: never
 # machine-rendered, never drafted by a model.
 REFERRAL = {
     "en": ("This is about a child's safety, and I cannot give advice on it. Please tell your head teacher, the guidance "
            "and counselling teacher or the school's safeguarding focal person today. You can call Childline on 116 "
-           "(free, 24 hours). If the child is in danger now, call the police on 991. The District Social Welfare "
+           "(free, 24 hours). If the child is in danger now, go to the nearest police station and ask for the Victim Support Unit. The District Social Welfare "
            "Office can also help."),
     "toi": None,
     "status": "English only; the Tonga is to be written and confirmed by a teacher (desk item), never machine-rendered",
-    "sources": ["clzambia.org/childline-116 (116, free, 24/7)", "zambiapolice.gov.zm/contact-us (991)",
+    "sources": ["clzambia.org/childline-116 (116, free, 24/7)", "Zambia Police Victim Support Unit (nearest police station)",
                 "Children's Code Act No. 12 of 2022 s.168(4), s.276", "chomacouncil.gov.zm Social Welfare"],
     "checked": "2026-10-21",
 }

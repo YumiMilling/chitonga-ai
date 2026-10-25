@@ -17,7 +17,7 @@ DECISIONS 23 Oct: behaviour lives in code, the model only READS; content is prep
   `TranslatorGemmaReader` (translator toi>en, then the untouched Gemma on llama.cpp 8091 with constrained JSON; not
   run by default), later a trained reader (the chat run plugs in here). Low confidence, or a reading that changes the
   answer, goes to a confirmation step with buttons.
-- `gates.py` safeguarding first (the assistant's verified referral: 116, 991, head / guidance teacher, DSWO), then
+- `gates.py` safeguarding first (the assistant's verified referral: 116, police Victim Support Unit, head / guidance teacher, DSWO), then
   the DENY scope list, then the plug-in's domain rules (e.g. health only from a checked card); fixed lines only.
 - `retrieval.py` lexical search over the plug-in's items (the assistant library's stemmer; vectors never admit).
 - `render.py` templates with slots; every Tonga line carries its origin (T teacher, B book, L lexicon, D derived:
@@ -147,7 +147,7 @@ labelled item ("ok"); the rule's `hold` and `<rule>_no_card` branches remain for
 earlier `review_allowed` whitelist is gone). Every front-end shows the label: `render.review_line` on every WhatsApp
 part of every kind, the web views / units / search results, the Netlify meta; no feedback prompt on a labelled item;
 a labelled card counts as syllabus cover with `needs_review` on the link. UNCHANGED, because they decide how a MESSAGE
-is answered and hide no material: the safeguarding referral on a teacher's message (116 / 991 / DSWO), the scope deny
+is answered and hide no material: the safeguarding referral on a teacher's message (116 / police Victim Support Unit / DSWO), the scope deny
 list, the engine's honest answer to a health-worded message no item matches (`<rule>_no_card` gap), and the
 request-wording branch that does not answer a health-worded request with an unlabelled unchecked card (no education
 item reaches it now: every health item is labelled).
