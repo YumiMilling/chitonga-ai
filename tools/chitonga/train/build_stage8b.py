@@ -2,7 +2,7 @@
 wasn't yet included"). The stage 7 run folder plus everything the translator has not seen since 12 Oct:
 
   own        the translators' lines from a FRESH export (export_pairs.py, leak filters applied): 1,275 vs 1,046 in s7
-  teacher    Fr Musunga's corrections of model sentences, v0.55 and v0.6 rounds (desk/teacher_corrections_*.jsonl)
+  teacher    T01's corrections of model sentences, v0.55 and v0.6 rounds (desk/teacher_corrections_*.jsonl)
   glossary   the Social Studies picture glossary (Tonga headings, English from the pictures): own group
   grammar    grammar_v065.jsonl: the engine sets rebuilt with his 14 Oct negative future (ta-SC-ka-ROOT-i) and every
              earlier teacher rule (no invented words, Bemba/Nyanja verbs out); its own group so an arm can leave it out

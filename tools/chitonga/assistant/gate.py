@@ -6,7 +6,7 @@ ORDER (each step for a reason):
   2. school signal h3_front.scope on both texts: advice (a classroom situation), teacher_task, social.
   3. content question  NEW here: h3_front.scope sends "What's photosynthesis?", "How many provinces are in Zambia",
                    "How many metres make a kilometer" and "For each correct answer, mark out of 2." to out_of_scope
-                   (checked 22 Oct on Fr Musunga's 11 frozen showcase requests: 6 of 11 redirected; "wash our hands"
+                   (checked 22 Oct on T01's 11 frozen showcase requests: 6 of 11 redirected; "wash our hands"
                    passed only as "pasted Tonga material"). A teacher asking a content question IS the task Chris named
                    ("explaining a topic in Tonga", desk/T01_2026-10-22_answers.md). So: a question form (English or
                    Tonga) that hits no DENY pattern is in scope as 'explain'. The DENY list holds what Chris called out

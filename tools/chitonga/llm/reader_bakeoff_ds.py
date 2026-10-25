@@ -3,7 +3,7 @@
 
 Rules kept here:
   - only bodies whose test rows contain NO teacher-derived text: rows written by Claude (teacher_en, edge) and their
-    noisy copies; the 142 v14 rows (the frozen harness test set, incl. Fr Musunga's real requests) and the noisy copies
+    noisy copies; the 142 v14 rows (the frozen harness test set, incl. T01's real requests) and the noisy copies
     of them are excluded; a body shared with an excluded row is excluded too (unsure = exclude). The onboarding body
     ("Message: Teacher") and the two digest bodies (notes written by the timetable agent) are sent.
   - the SAME captured bodies as the pod arms: system prompt and user message unchanged; DeepSeek gets

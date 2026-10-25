@@ -7,7 +7,7 @@ internal/chitonga_train/assistant_library/core_fixed_lines.json (built by core/b
 names. Each Tonga entry stores the English it was made for: if the plug-in's English changes, the Tonga no longer
 matches and is not served (English instead) until the table is rebuilt and the new line confirmed.
 
-WHAT IS SERVED. status 'served' = written by a teacher (T01 Fr Musunga, T05, T09) or confirmed by one at the
+WHAT IS SERVED. status 'served' = written by a teacher (T01, T05, T09) or confirmed by one at the
 desk (DECISIONS 20 Oct: each teacher input counts at once, confidence 1). status 'confirm' = book (B), word-list (L)
 or translator (D, a050) Tonga waiting in the desk queue: shown only with drafts=True (the simulator), tagged [D] / [B].
 The safeguarding referral is not here: it stays exactly as the assistant gate has it (English until a teacher writes it).

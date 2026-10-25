@@ -10,7 +10,7 @@ BEFORE and AFTER on the same numbers instead of on a feeling:
                  redirect / social / safeguarding / no_material -> the harness outcome. 'advice' has no harness
                  target at all (the harness answers class struggles through strategies), so those rows are counted
                  apart and never as a failure of the intake.
-  C  real        Fr Musunga's 8 real requests (desk/real_requests_2026-10-23/T01_answers_v2.md). Most are out of
+  C  real        T01's 8 real requests (desk/real_requests_2026-10-23/T01_answers_v2.md). Most are out of
                  scope on purpose (TB, a map of Zambia, the smallest country, the skeleton). The number that matters
                  is 'caught': a request routed to a lesson, card or unit. It must NOT rise: a confident wrong lesson
                  is worse than the honest "I have no checked material".
