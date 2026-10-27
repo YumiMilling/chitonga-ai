@@ -8,7 +8,9 @@ This is a research prototype. It is not a product, and nothing here has been che
 professional.
 
 Paper 1 (preprint, October 2026): Lindinger, C. J. *No Data Centre Required: Adapting Open Models to Chitonga with
-Paid Bilingual Speakers, Printed Books and a Verifying Harness.* Zenodo. https://doi.org/10.5281/zenodo.23487563
+Paid Bilingual Speakers, Printed Books and a Verifying Harness.* Zenodo. All versions:
+https://doi.org/10.5281/zenodo.23487562 (version 2, 25 October 2026: https://doi.org/10.5281/zenodo.23642991).
+Paper 2: *Local AI for Zambia 1*, https://doi.org/10.5281/zenodo.23642662
 
 ## The architecture
 
@@ -68,7 +70,9 @@ and two seeds where training was involved.
   record. We use them to find errors and route them to speakers, never as the score.
   - The weakness map (22 October): 500 unseen English>Chitonga lines from the installed translator, one blind LLM
     judge, dynamic equivalence. Result: 216 right, 238 partly, 46 wrong.
-  - A speaker test of the same translator is running. Its verdicts are pending.
+  - The speaker test (24-25 October): 170 random Grade 1-4 classroom sentences, judged blind by two bilingual
+    speakers under a sealed rule with hidden controls. 36% were marked right as written and 68% right or needing only
+    a small fix. An AI judge called 53% of the same sentences right.
 - **The bigger reader read no better.** The bake-off asked which standard model should read the translator's English.
   The task was English only, clean and noisy, 1,164 requests. Results, correct out of 1,164:
 
@@ -113,10 +117,11 @@ Public, on Hugging Face (each URL checked anonymously on 24 October 2026):
   attribution. The model is a derivative of Google's Gemma 4 (`google/gemma-4-E4B` and `google/gemma-4-E4B-it`), which
   is licensed under the Apache License 2.0."
 - https://huggingface.co/zamai-zambia/chitonga-nllb-a050: the installed translator **a050**, the 50/50 weight average
-  of stages 13 and 16, CC BY-NC 4.0. Upload in progress.
+  of stages 13 and 16, CC BY-NC 4.0.
   - Weakness map (22 October): 500 unseen lines, English>Chitonga, one blind LLM judge, dynamic equivalence. Result:
     216 right, 238 partly, 46 wrong.
-  - Native speakers' verdicts are pending (a speaker test is running). Read the LLM figures as an alarm, not a measure.
+  - Speaker test (24-25 October, 170 random classroom sentences, two blind speakers): 36% right as written, 68% right
+    or needing a small fix. Read the LLM figures as an alarm, not a measure.
 
 Not public: the stage 18 and stage 19 candidates. All of them failed their pre-registered kill tests. They are
 available on request.
